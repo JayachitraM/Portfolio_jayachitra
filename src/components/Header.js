@@ -15,14 +15,17 @@ export default function Header() {
                 <li><a href="/#contact">Contact</a></li>
             </ul>
         </nav>
-        {toggleMenu && <nav className="block md:hidden ">
-            <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white  mobile-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>}
+       {toggleMenu && (
+                <nav className="absolute top-16 right-5 md:hidden bg-primary text-white rounded-lg p-4 shadow-lg">
+                    <ul className="flex flex-col space-y-3 font-bold">
+                        <li><a onClick={() => setToggleMenu(false)} href="#home">Home</a></li>
+                        <li><a onClick={() => setToggleMenu(false)} href="#about">About</a></li>
+                        <li><a onClick={() => setToggleMenu(false)} href="#projects">Projects</a></li>
+                        <li><a onClick={() => setToggleMenu(false)} href="#resume">Resume</a></li>
+                        <li><a onClick={() => setToggleMenu(false)} href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            )}
         <button onClick={() => setToggleMenu(!toggleMenu)} className='block md:hidden'><Bars3Icon className='text-white h-5'/></button>
     </header>
 }
