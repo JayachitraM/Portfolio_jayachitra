@@ -1,5 +1,5 @@
 // import AboutImg from '../assets/about.png';
-import AboutImg from '../assets/img (3).jpg';
+import AboutImg from '../assets/hero.png';
 
 export default function About () {
     const config  = {
