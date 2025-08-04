@@ -12,10 +12,10 @@ export default function Hero() {
     }
 
 
-    return <section className='flex flex-col md:flex-row p-20 py-32   bg-image '>
+    return <section className='flex flex-col md:flex-row p-5 py-30   bg-image '>
       
-       <div className='md:w-1/2 flex flex-col'>
-            <h1 className=' text-white text-6xl font-hero-font'>Hi, <br/> Im <span className='text-black'>Jayachitra</span>  
+       <div className='md:w-1/2 flex flex-col py-10 px-5'>
+            <h1 className=' text-white text-6xl font-hero-font'><br/><br/>Hi, <br/><br/> Im <span className='text-black'>Jayachitra</span>  
                 <p className='text-2xl'>{config.subtitle}</p>
             </h1>
             <div className='flex py-10'>

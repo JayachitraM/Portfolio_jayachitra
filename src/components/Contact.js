@@ -6,7 +6,7 @@ export default function Contact () {
         phone: '+91-9962605098'
     }
 
-    return <section id='contact' className='flex flex-col bg-primary px-5 py-32 text-white'>
+    return <section id='contact' className='flex flex-col bg-secondary px-5 py-32 text-white'>
         <div className='flex flex-col items-center'>
            
             <h1 className='text-4xl   mb-5 w-[140px] font-bold'>Contact</h1>

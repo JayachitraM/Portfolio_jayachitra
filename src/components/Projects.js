@@ -1,6 +1,8 @@
 import websiteImg1 from '../assets/proffile.png';
 import websiteImg2 from '../assets/filter.png';
 import websiteImg3 from '../assets/explorer.png';
+import websiteImg4 from '../assets/crud.png';
+import websiteImg5 from '../assets/Portfolio.png';
 
 export default function Projects() {
 
@@ -20,11 +22,21 @@ export default function Projects() {
                 image: websiteImg2,
                 description: 'Product-Filter-Its about e-comeerce one part ,it can filter product',
                 link: 'https://github.com/JayachitraM/Product_Filter'
+            },
+            {
+                image: websiteImg4,
+                description: 'CRUD operation -Its about data Maintainence like update,delete and add option for data',
+                link: 'https://github.com/JayachitraM/Data-application'
+            },
+            {
+                image: websiteImg5,
+                description: 'Portfolio-This is my portfolio website, where you can find all my projects and contact details',
+                link: 'https://github.com/JayachitraM/Portfolio_jayachitra'
             }
         ]
     }
 
-    return <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-primary text-white">
+    return <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-secondary text-white">
         <div className="w-full">
             <div className="flex flex-col px-10 py-5">
                 <h1 className="text-4xl   mb-5 w-[150px] font-bold">Projects</h1>

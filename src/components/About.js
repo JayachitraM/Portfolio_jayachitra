@@ -5,12 +5,12 @@ export default function About () {
     const config  = {
         line1: "I'm Jayachitra, a B.E. Computer Science Engineering graduate with a strong interest in front-end development.",
         line2: "I’ve built projects using HTML, CSS, JavaScript, and React, and I’m continuously improving my skills. I enjoy creating responsive, interactive user interfaces and solving real-world problems through code",
-        line3: "I’m now looking to begin my career as a front-end developer in a company where I can grow and contribut"
+        line3: "I’m now looking to begin my career as a front-end developer in a company where I can grow and contribute"
     }
 
     return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
-        <div className='py-2 px-5 md:w-1/2'>
-            <img src={AboutImg}  />
+        <div className='py-2 px-40 md:w-1/2 '>
+            <img src={AboutImg} height="50px" width="350px" />
         </div>
         <div className='md:w-1/2 flex justify-center'>
             <div className='flex flex-col justify-center text-white'>
